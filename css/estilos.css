@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Questrial&display=swap');
 /*Selector Universal*/
 
 *{
@@ -19,6 +20,7 @@ ul{
     background-color: white;
     border-radius: 2em;
     box-shadow: 0px 4px 12px 0px #371e3d;
+    margin-top: 15px;
 
     
 }
@@ -103,11 +105,12 @@ hr{
     font-size: 20px;
     border: transparent;
     font-weight: bold;
+    color: rgb(94, 92, 92);
 
 }
 
 .descripcion{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Questrial;
     font-weight: 400px;
     text-align: justify;
     font-size: 17px;
@@ -115,6 +118,8 @@ hr{
     font-style: normal;
     background-color:  #82adab;
     color: #000;
+    margin: 5px;
+    border-radius: 1em;
 }
 
 .boton {
@@ -142,4 +147,31 @@ hr{
     color: white;
     text-align: center;
     padding: 20px,10px;
+}
+
+.tarjeta{
+    box-shadow: 0px 4px 8px 0px rgb(44,41,37);
+    overflow: hidden;
+    max-width: 330px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 25px;
+}
+
+.tarjeta2{
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    overflow: hidden;
+    max-width: 330px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 25px;
+    background-color: aliceblue;
 }
