@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 12px;
+}
+
+.header{
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0 4px 12px 0 black;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+
+}
+
+body{
+    background-color: blue;
+}
+
+
+ul{
+     text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0px 4px 12px 0px #371e3d;
+    margin-top: 15px;
+}
+
+.section{
+    padding: auto;
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0 4px 12px 0 black;
+    margin:auto;
+}

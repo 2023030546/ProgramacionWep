@@ -1,0 +1,88 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    background: #1E9600;
+    background: -webkit-linear-gradient(to right, #10cd02, #ffffff, #e20404); 
+    background: linear-gradient(to right, #10cd02,#ffffff, #e20404); 
+
+}
+
+img{
+    border-radius: 1em;
+}
+
+ul{
+    text-align: center;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0px 4px 12px 0px #371e3d;
+    margin-top: 15px;
+}
+
+
+li{
+    margin: 12px;
+    display: inline;
+    padding: auto;
+    box-shadow: 0 2px 4px 0 #371e3d;
+    border-radius: 1em;
+}
+
+section{
+   
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    width: 600px;
+    height: 530px;
+}
+
+section img{
+    
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .3s ease;
+}
+
+section img:hover{
+    width: 400px;
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.tarjeta{
+    padding: 20px;
+    border-radius: 1em;
+    box-shadow: 0 4px 12px 0 black;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.heroes{
+    display: flex;;
+    margin: auto;
+}
+
+
+.heroes p{
+    margin: auto;
+    box-shadow: 0 4px 12px 0 black;
+    border-radius: .2em;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
