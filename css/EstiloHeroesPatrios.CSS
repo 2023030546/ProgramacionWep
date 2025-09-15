@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Caveat:wght@400..700&family=Questrial&display=swap');
+
 *{
     margin:  0;
     padding: 0;
@@ -67,6 +70,7 @@ section img:hover{
     text-align: center;
     background-color: #ffffff;
     margin-top: 20px;
+    font-family: caveat;
 }
 
 .heroes{
@@ -80,6 +84,7 @@ section img:hover{
     box-shadow: 0 4px 12px 0 black;
     border-radius: .2em;
     background-color: white;
+    font-family: caveat;
 }
 
 footer{

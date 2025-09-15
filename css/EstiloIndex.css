@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Caveat:wght@400..700&family=Questrial&display=swap');
+
 *{
     margin: 0;
     padding: 12px;
@@ -21,7 +24,7 @@ body{
 ul{
      text-align: center;
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: caveat;
     font-size: 20px;
     text-transform: uppercase;
     background-color: white;
