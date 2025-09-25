@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 10px;
+}
+
+
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.encabezado{
+    color: white;
+    border-radius: 12px;
+    font-size: larger;
+}
+
+.img{
+    border-radius: 100%;
+    width: 12em;
+    height: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.impuuut{
+    border: white 2px solid;
+    border-radius: 1em;
+    width: 90%;
+
+}
+
+.tarjeta{
+    display: block;
+    justify-content: start;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px 0 white;
+    text-align: center;
+    padding: 12px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    align-items: center;
+    color: white;
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: Smooch Sans;  
+}
+
+button{
+    border-radius: 2em;
+    padding: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+textarea{
+    margin: 12px;
+    width: 95%;
+    height: 100px;
+}
+

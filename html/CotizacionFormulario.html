@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizacion</title>
+    <link rel="stylesheet" href="/css/CssFormularioAuto.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h2>Cotizacion</h2>
+    </header>
+
+    <section class="tarjeta">
+        <form action="https://formsubmit.co/microinformaticamx@gmail.com" method="post">
+            <img class="img" src="/assets/logo.jpeg" alt="logo_empresa">
+            <h3>Datos del cliente</h3>
+            <label for="nombre">Nombre del Cliente</label>
+            <br>
+            <input class="impuuut"  type="text" id="nombre" name="nombre" placeholder="Escriba su nombre aqui" minlength="3" required>
+           <br>
+            <label for="email">Correo</label>
+            <br>
+            <input class="impuuut" type="email" name="email" id="email" placeholder="Escriba su correo" required>
+            <br>
+            <label for="poblacion">Poblacion</label>
+            <br>
+            <input class="impuuut" type="text" required placeholder="Poblacion/Localidad" name="poblacion" id="poblacion">
+            <br>
+            <label for="edad">Edad</label>
+            <br>
+            <input class="impuuut" type="number" min="18" max="100" required>
+            <br>
+            <hr>
+            <h3>Seleccion del Automovil</h3>
+            <label for="modelo">Modelo</label>
+            <br>
+            <select name="modelo" id="modelo">
+                <option value="toyota_corola">Toyota corola</option>
+                <option value="toyota_supra">Toyota Supra</option>
+                <option value="toyota_cambridge">Toyota Cambridge</option>
+                <option value="nissan_march">Nissan March</option>
+                <option value="nissan_kids">Nissan Kicks</option>
+                <option value="nissan_gtr">Nisaan Gtr</option>
+                <option value="Ford_Raptor">Ford Raptor</option>
+                <option value="Ford_Ranger">Ford Ranger</option>
+                <option value="Ford_Mustang">Ford Mustang</option>
+                <option value="cupra_born">Cupra Born</option>
+                <option value="cupra_fomerntor">Cupra Fomentor</option>
+                <option value="cupra_leon">Cupra leon</option>
+            </select>
+
+            <br>
+            <hr>
+            
+            <h3>Condiciones de Pago</h3>
+            <label for="pagoIni">Porcentaje de pago inicial</label>
+            <br>
+            <input type="number" name="porsentaje_pago_inicial" id="porsentajePini" min="10" max="100">
+
+            <br>
+            <label for="plazoDPago">Plazo de pago</label>
+            <br>
+            <input type="radio" name="plazo" id="12meses" checked value="12 meses">
+            <label for="12meses">12 meses</label>
+            <input type="radio" name="plazo" id="24meses" value="24 meses">
+            <label for="24meses">24 meses</label>
+            <br>
+            <input type="radio" name="plazo" id="36meses" value="36 meses">
+            <label for="36meses">36 meses</label>
+            <input type="radio" name="plazo" id="48meses" value="48 meses">
+            <label for="48meses">48 meses</label>
+            <input type="radio" name="plazo" id="60meses" value="60 meses">
+            <label for="60meses">60 meses</label>
+            
+            <br>
+            <hr>
+
+            <label for="Comentarios">Comentarios</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" maxlength="200"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+
+
+        </form>
+    </section>
+    
+</body>
+</html>
