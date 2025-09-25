@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/Formulario.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h2>Contactos</h2>
+    </header>
+    <section class="card">
+        <form action="https://formsubmit.co/alejandromramos7@gmail.com" method="post">
+            <label for="nombre">Nombre :</label>
+            <input type="text" id="nombre" name="Nombre" placeholder="Escribe tu nombre" required>
+            <br>
+
+            <label for="edad">Edad :</label>
+            <input type="number" name="edad" id="edad" maxlength="3" placeholder="Digita tu edad" required>
+            <br>
+
+            <label for="Estado civil">Estado civil</label>
+            <select name="Estado civil" id="edoCivil">
+                <option value="soltero">Soltero</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="union libre">Union</option>
+                <option value="viudo">Viudo</option>
+            </select>
+            <br>
+
+            <label for="sexo">Sexo</label>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="sexo" id="idSexo">
+            <label for="femenino">femenino</label>
+            <input type="radio" name="sexo" id="idSexo">
+
+            <br>
+            <label for="Idiomas">Idiomas</label>
+            <br>
+            <label for="Espanol">Espanol</label>
+            <input type="checkbox" name="Espanol" id="Espanol">
+            <label for="ingles">Ingles</label>
+            <input type="checkbox" name="Ingles" id="Ingles">
+            <label for="ingles">Chino</label>
+            <input type="checkbox" name="Chino" id="Chino">
+            <br>
+
+            <label for="Fecha nacimineto">Fecha de nacimineto</label>
+            <input type="date" name="fechanaci" id="fechaNac">
+            <br>
+
+            <label for="correo">Correo</label>
+            <input type="email" name="CorreoElectronico" id="correoE" placeholder="Escriba su correo">
+            <br>
+
+            <textarea name="Comentarios" id="comentarios" cols="50" rows="5" placeholder="Escriba aqui tus comentarios"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
+</body>
+</html>

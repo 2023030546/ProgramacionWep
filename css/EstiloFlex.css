@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(248, 175, 175);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgb(41,90,88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorSpaceAround{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(41, 90, 66);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorSpaceBet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(77, 90, 41);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorItemStre{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: rgb(90, 83, 41);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorItemC{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(41, 90, 83);
+    padding: 10px;
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.contenedorItemC div {
+    background-color: rgb(191, 204, 200);
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    border-radius: 2px solid;
+    font-size: 70px;
+    height: 100px;
+    width: 100px;
+}
+
+.contenedorItemC div p{
+    margin: 0;
+}
+
+
+
+
+.contenedorItemEnd{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: end;
+    background-color: rgb(64, 41, 90);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorItemCenter{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(90, 41, 61);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.item{
+    background-color: rgb(191,204,200);
+    width: 100px;
+    margin: 10px;
+    border-radius: 2px solid;
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.item:hover{
+    background-color: rgb(112,105,105);
+}
+
+.item2{
+    background-color: rgb(191,204,200);
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    border-radius: 2px solid;
+    text-align: center;
+    font-size: 75px;
+    line-height: 75px;
+    margin-top: 50px;
+}
+
+.item2:hover{
+    background-color: rgb(112,105,105);
+}
