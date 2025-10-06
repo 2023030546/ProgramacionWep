@@ -11,35 +11,97 @@ body{
     color: rgb(8, 0, 0);
 }
 
-ul{
-    text-align: center;
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    background-color: white;
-    border-radius: 2em;
-    box-shadow: 0px 4px 12px 0px #371e3d;
-    margin-top: 15px;
 
-    
-}
-
-li{
-    display: inline;
+.contenedor li{
+    display: block;
     margin: 3em;
-    padding: 10px,30px;
+    padding: 5px, 15px;
+
 }
 
-li a{
+.contenedor li a{
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-li a:hover{
-    color: brown;
-    font-size: 30px;
-    transition: 1000ms;
+
+.menu{
+    text-align: center;
+    position:relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius: 9PX ;
+    box-shadow: 0 4px 12px 0 black;
+    padding-left:155px;
+    padding-right: 155px;
 }
+
+
+.menu .navbar ul li {
+    position:relative;
+    float:left; 
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 0px;
+    display:block;
+
+}
+
+.menu .navbar ul li a:hover{
+    color:darkcyan;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icon{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+ @media (max-width:900px){
+    .menu{
+        padding: 10px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(253, 253, 252);
+        display: none;
+        box-shadow: 0 4px 12px 0 black;
+        border-radius: 2px;
+    }
+
+    .menu .navbar ul li{
+        width: 82%;
+    }
+
+    #menu:checked~.navbar{
+        display: initial;
+    }
+
+ }
+
+
 
 hr{
     border: none;
@@ -51,14 +113,14 @@ hr{
 
 /* selector ID*/
 #contenedor{
+    display: block;
     width: auto;
     height: auto;
     background-color: white;
-    margin: 40px;
+    margin: 30px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 4px 12px 0px #371e3d;
-
 }
 
 #encabezado{
@@ -84,8 +146,8 @@ hr{
 
 .menu{
     height: auto;
-    width: 90%;
-    background-color: #82adab;
+    width: auto ;
+    background-color: #dbdbdb;
     margin: 1em;
     border-radius: 4px;
 }
@@ -168,6 +230,8 @@ hr{
 }
 
 .tarjeta2{
+    display: block;
+
     box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
     overflow: hidden;
     max-width: 330px;
@@ -177,7 +241,7 @@ hr{
     border: 2px solid;
     border-radius: 10px;
     border: transparent;
-    margin-top: 25px;
+    margin-top: 9px;
     background-color: aliceblue;
 }
 
