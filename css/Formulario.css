@@ -16,10 +16,10 @@ body{
 }
 
 .encabezado{
-    display: block;
-    flex-direction: column;
-    justify-content: start;
-    text-align: start;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
     background-color: blue;
     text-align: center;
     color: aliceblue;
@@ -28,6 +28,8 @@ body{
     width: 29em;
     height: auto;
 }
+
+
 
 .card{
     display: block;
